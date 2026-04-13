@@ -1,0 +1,57 @@
+{
+  "allowedFileTypes": [
+    "image/*"
+  ],
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 47,
+  "boxShadow": "none",
+  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "dynamicBindingPathList": [
+    {
+      "key": "buttonColor"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onFilesSelected"
+    }
+  ],
+  "dynamicTyping": true,
+  "fileDataType": "Binary",
+  "files": [],
+  "isDefaultClickDisabled": true,
+  "isDisabled": false,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "7bmykdsi6e",
+  "label": "Upload Pictures",
+  "leftColumn": 33,
+  "maxFileSize": 5,
+  "maxNumFiles": "5",
+  "minWidth": 120,
+  "mobileBottomRow": 39,
+  "mobileLeftColumn": 37,
+  "mobileRightColumn": 53,
+  "mobileTopRow": 35,
+  "needsErrorInfo": false,
+  "onFilesSelected": "{{UploadPictures.run().then(() => {\n  AppsList.run();\n  resetWidget(\"PicturesFilePicker\", true);\n});}}",
+  "originalBottomRow": 48,
+  "originalTopRow": 43,
+  "parentColumnSpace": 8.65625,
+  "parentId": "md0mc89bqd",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "hug",
+  "rightColumn": 64,
+  "selectedFiles": [],
+  "topRow": 42,
+  "type": "FILE_PICKER_WIDGET_V2",
+  "version": 1,
+  "widgetId": "4ynw037ivu",
+  "widgetName": "PicturesFilePicker"
+}

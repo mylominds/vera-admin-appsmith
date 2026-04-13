@@ -1,0 +1,5 @@
+{
+  "image": "{{UploadImage.files[0].id}},
+  "caption": "{{Prompt.text}}",
+  "prompt": "{{Caption.text}}"
+}

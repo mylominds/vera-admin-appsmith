@@ -1,0 +1,60 @@
+{
+  "allowedFileTypes": [
+    "image/*"
+  ],
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 43,
+  "boxShadow": "none",
+  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "dynamicBindingPathList": [
+    {
+      "key": "buttonColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "label"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onFilesSelected"
+    }
+  ],
+  "dynamicTyping": true,
+  "fileDataType": "Base64",
+  "files": [],
+  "isDefaultClickDisabled": true,
+  "isDisabled": false,
+  "isLoading": false,
+  "isRequired": true,
+  "isVisible": true,
+  "key": "7bmykdsi6e",
+  "label": "{{AppsTable.triggeredRow.icon ? \"Replace Icon\" : \"Upload Icon\"}}",
+  "leftColumn": 21,
+  "maxFileSize": 5,
+  "maxNumFiles": "1",
+  "minWidth": 120,
+  "mobileBottomRow": 9,
+  "mobileLeftColumn": 12,
+  "mobileRightColumn": 28,
+  "mobileTopRow": 5,
+  "needsErrorInfo": false,
+  "onFilesSelected": "{{UploadIcon.run().then(() => {\n  AppsList.run().then(() => {\n    setTimeout(() => resetWidget(IconDisplay), 200);\n  });\n  resetWidget(\"IconFilePicker\", true);\n}).catch(() => {});}}",
+  "originalBottomRow": 39,
+  "originalTopRow": 34,
+  "parentColumnSpace": 8.65625,
+  "parentId": "13gg4zigmh",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "hug",
+  "rightColumn": 43,
+  "selectedFiles": [],
+  "topRow": 38,
+  "type": "FILE_PICKER_WIDGET_V2",
+  "version": 1,
+  "widgetId": "ey3zkz76me",
+  "widgetName": "IconFilePicker"
+}

@@ -1,0 +1,16 @@
+{
+  "gitSyncId": "685434963c358449b293de64_746e876b-7cd1-45ab-a868-e7108038416c",
+  "id": "Apps_Env",
+  "unpublishedCollection": {
+    "name": "Env",
+    "pageId": "Apps",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "VERA_PUBLIC_ENDPOINT",
+        "value": "'https://public.storage.vera.sc/'"
+      }
+    ]
+  }
+}
