@@ -1,0 +1,46 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "autoFocus": false,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 13,
+  "boxShadow": "none",
+  "defaultText": "",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "inputType": "URL",
+  "isDisabled": false,
+  "isRequired": false,
+  "isSpellCheck": false,
+  "isVisible": true,
+  "key": "s6w1b4e9hz",
+  "label": "Source URL",
+  "leftColumn": 50,
+  "minWidth": 120,
+  "mobileBottomRow": 35,
+  "mobileLeftColumn": 20,
+  "mobileRightColumn": 39,
+  "mobileTopRow": 29,
+  "needsErrorInfo": false,
+  "parentColumnSpace": 10.25,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "placeholderText": "https://example.com/article",
+  "renderMode": "CANVAS",
+  "resetOnSubmit": false,
+  "responsiveBehavior": "fill",
+  "rightColumn": 63,
+  "topRow": 7,
+  "type": "INPUT_WIDGET_V2",
+  "validation": "{{!SourceUrlInput.text || /^https?:\\/\\//.test(SourceUrlInput.text)}}",
+  "version": 1,
+  "widgetId": "u9p3c7f2ka",
+  "widgetName": "SourceUrlInput"
+}

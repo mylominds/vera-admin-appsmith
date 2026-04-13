@@ -1,0 +1,47 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "autoFocus": false,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 13,
+  "boxShadow": "none",
+  "defaultText": "",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "inputType": "TEXT",
+  "isDisabled": false,
+  "isRequired": true,
+  "isSpellCheck": false,
+  "isVisible": true,
+  "key": "y2nv5g7p4w",
+  "label": "Caption",
+  "leftColumn": 32,
+  "maxChars": "400",
+  "minWidth": 120,
+  "mobileBottomRow": 35,
+  "mobileLeftColumn": 1,
+  "mobileRightColumn": 20,
+  "mobileTopRow": 29,
+  "needsErrorInfo": false,
+  "parentColumnSpace": 10.25,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "placeholderText": "Enter caption",
+  "renderMode": "CANVAS",
+  "resetOnSubmit": false,
+  "responsiveBehavior": "fill",
+  "rightColumn": 50,
+  "topRow": 7,
+  "type": "INPUT_WIDGET_V2",
+  "validation": "{{!!CaptionInput.text}}",
+  "version": 1,
+  "widgetId": "q4d8n2x7lm",
+  "widgetName": "CaptionInput"
+}

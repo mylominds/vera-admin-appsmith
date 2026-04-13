@@ -1,0 +1,47 @@
+{
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "autoFocus": false,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 7,
+  "boxShadow": "none",
+  "defaultText": "",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "inputType": "TEXT",
+  "isDisabled": false,
+  "isRequired": true,
+  "isSpellCheck": false,
+  "isVisible": true,
+  "key": "kf3h8a9b2p",
+  "label": "Title",
+  "leftColumn": 32,
+  "maxChars": "120",
+  "minWidth": 120,
+  "mobileBottomRow": 29,
+  "mobileLeftColumn": 1,
+  "mobileRightColumn": 20,
+  "mobileTopRow": 25,
+  "needsErrorInfo": false,
+  "parentColumnSpace": 10.25,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "placeholderText": "Enter title",
+  "renderMode": "CANVAS",
+  "resetOnSubmit": false,
+  "responsiveBehavior": "fill",
+  "rightColumn": 50,
+  "topRow": 2,
+  "type": "INPUT_WIDGET_V2",
+  "validation": "{{!!TitleInput.text}}",
+  "version": 1,
+  "widgetId": "m8j3k5q1rt",
+  "widgetName": "TitleInput"
+}

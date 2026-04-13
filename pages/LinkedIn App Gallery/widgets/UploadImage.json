@@ -1,0 +1,58 @@
+{
+  "allowedFileTypes": [
+    "image/*"
+  ],
+  "animateLoading": false,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 7,
+  "boxShadow": "none",
+  "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+  "dynamicBindingPathList": [
+    {
+      "key": "buttonColor"
+    },
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "isDisabled"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onFilesSelected"
+    }
+  ],
+  "dynamicTyping": true,
+  "fileDataType": "Binary",
+  "files": [],
+  "isDefaultClickDisabled": true,
+  "isDisabled": "{{!TitleInput.text || !CaptionInput.text}}",
+  "isLoading": false,
+  "isRequired": true,
+  "isVisible": true,
+  "key": "th2ssof6fl",
+  "label": "Upload LinkedIn Image",
+  "leftColumn": 51,
+  "maxFileSize": 5,
+  "maxNumFiles": "1",
+  "minWidth": 120,
+  "mobileBottomRow": 21,
+  "mobileLeftColumn": 4,
+  "mobileRightColumn": 20,
+  "mobileTopRow": 17,
+  "needsErrorInfo": false,
+  "onFilesSelected": "{{(() => {\n  if (!TitleInput.text || !CaptionInput.text) {\n    showAlert('Title and caption are required', 'warning');\n    resetWidget('UploadImage');\n    return;\n  }\n\n  UploadLIG.run().then(() => {\n    GetLIG.run().then(() => {\n      resetWidget('UploadImage');\n      resetWidget('TitleInput');\n      resetWidget('CaptionInput');\n      resetWidget('SourceUrlInput');\n    });\n  });\n})()}}",
+  "parentColumnSpace": 10.25,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "hug",
+  "rightColumn": 63,
+  "selectedFiles": [],
+  "topRow": 2,
+  "type": "FILE_PICKER_WIDGET_V2",
+  "version": 1,
+  "widgetId": "ax2o5g8r15",
+  "widgetName": "UploadImage"
+}
