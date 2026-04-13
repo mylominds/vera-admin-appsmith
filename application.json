@@ -44,6 +44,10 @@
     {
       "id": "Create Asset Gallery",
       "isDefault": false
+    },
+    {
+      "id": "LinkedIn App Gallery",
+      "isDefault": false
     }
   ],
   "unpublishedAppLayout": {
